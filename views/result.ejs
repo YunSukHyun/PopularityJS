@@ -14,7 +14,10 @@
     <% for(let i = 0; i < result.length; i++){%>
     <li><div class="imgbox"><img src="image\<%= result[i].name %>.png"
          class="items" onclick=""> <div 
-         class="decbox"><%=result[i].name%></div></div><span class="barGraph"><%=result[i].score%></span></li>
+         class="decbox"><%=result[i].name%></div></div>
+         <span class="barGraph"><%=result[i].score%>
+            </span>
+         </li>
     <% }%>
     </ol>
 </body>
@@ -26,13 +29,18 @@
         border:1px solid rgb(228, 227, 227);
         border-left:0;
         background:#e9e9e9;
-        
+        transition: 1s;
     }
     .barGraph span{
         position:absolute;
         top:0;
         right:-50px;
-        line-height:20px
+        line-height:20px;
+
+    }
+    .graphs{
+        float:left;
+        clear: right;
     }
 </style>
 </html>
