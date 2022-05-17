@@ -1,0 +1,76 @@
+input[type="checkbox"] {
+  position: absolute;
+  visibility: hidden;
+  cursor: pointer;
+}
+
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  padding: 5px 25px;
+  border: 2px solid #000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+button {
+  text-align: center;
+  margin: 20px;
+  outline: none;
+}
+/* 1 */
+.btn-1 {
+  transition: all 0.3s ease;
+}
+
+.btn-1:hover {
+   box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+}
+
+label {
+  /*display: block;*/
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 10px;
+  width: 37px;
+  height: 20px;
+  border-radius: 17px;
+  background-color: #ddd;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+label span {
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  z-index: 1;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #fff;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+
+
+input:checked + label {
+  background-color: #FF5252;
+  cursor: pointer;
+}
+
+input:checked + label span {
+  /* left: 29px; */
+  transform: translateX(17px);
+  cursor: pointer;
+}

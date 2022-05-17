@@ -1,0 +1,220 @@
+@media(min-width:1260px){
+  .grid{width:1260px}
+}
+html {
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+}
+input[type="checkbox"] {
+    position: absolute;
+    visibility: hidden;
+    cursor: pointer;
+}
+a {
+    color: blue;
+}
+img {
+    cursor: pointer;
+    max-width: 80px;
+}
+
+.items:hover{
+    filter: brightness(90%);
+}
+ul.tabs {
+    list-style: none;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    margin: 0;
+    padding: 10px;
+}
+ul.tabs li {
+    display: inline-block;
+    border: 1px;
+    padding: 10px;
+    font-size: 15px;
+    margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 3px 4px;
+        text-align: left;
+    font-weight: 900;
+}
+ul.tabs li.current {
+    background: #bc503f;
+    color: #fff;
+}
+nav {
+    font-family: "Nanum Gothic";
+}
+footer {
+    font-family: "Nanum Gothic";
+}
+#charlisttop {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px 4px;
+}
+
+.mu-appbar {
+    background-color: #474a4f;
+    font-size: 1rem;
+    color: #fff;
+    box-shadow: 0 1px 6px rgba(0,0,0,.117647), 0 1px 4px rgba(0,0,0,.117647);
+    height: 48px;
+    display: flex;
+    align-items: center;
+      align-self: flex-start;
+      padding: 0 20px;
+          box-sizing: border-box;
+}
+
+
+
+.charheader
+{
+    height: 45x;
+    line-height: 38px ;
+    padding-left: 32px;
+    background-color: #f7f7f7;
+    position: relative;
+}
+
+.charborder
+{
+  border: 1px solid #ccc;
+  border-radius: 3px 4px;
+
+}
+
+.buttons{
+    margin: 1px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1px;
+    display: inline-block;
+    width: auto;
+}
+.buttons:hover{
+    color:#df8282;
+}
+.charpadding
+{
+  padding:16px;
+}
+
+#roundborder {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px 4px;
+}
+#searchtable {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-align: center;
+    border-radius: 3px 4px;
+        margin-bottom: 10px;
+          margin-top: 15px;
+}
+#searchbutton {
+    text-align: center;
+}
+.interval {
+    margin: 20px;
+}
+.tab-content {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.tab-content.current {
+    display: inherit;
+    text-align: left;
+    font-size: 15px;
+    padding: 8px 16px;
+    border-top: 0;
+    border: 1px solid #ccc;
+    border-radius: 3px 4px;
+}
+.searchintro {
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-family: "Nanum Gothic";
+    text-align: left;
+    line-height: 2;
+}
+.searchbutton {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  border-radius: 2px;
+  height: 36px;
+  line-height: 36px;
+  min-width: 88px;
+  transition-duration: .3s;
+  transition-timing-function: cubic-bezier(.23,1,.32,1);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  color: rgba(0,0,0,.87);
+  -webkit-box-flex: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex: 0 0 auto;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  cursor: pointer;
+  box-shadow: 0 1px 6px rgba(0,0,0,.117647), 0 1px 4px rgba(0,0,0,.117647);
+      background-color: #ff5252;
+    color:  #fff;
+}
+.imgbox {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 80px;
+    height: 110px;
+    margin: 4px 2px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    border-radius: 3px 4px;
+}
+.decbox {
+    margin-top: 7px;
+    display: inline-block;
+    height: 12px;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 15px;
+    font-family: "Nanum Gothic";
+}
+.main {
+    cursor: default;
+}
+.grid {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Nanum Gothic";
+}
+.maingrid {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.shadowbox {
+    margin: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.156863), 0 3px 10px rgba(0, 0, 0, 0.227451);
+    padding: 10px;
+}
