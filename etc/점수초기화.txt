@@ -1,0 +1,1 @@
+UPDATE `princess` SET `score`=0,`s10`=0,`s8`=0,`s7`=0,`ms1`=0,`ms2`=0,`ms3`=0 
